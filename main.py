@@ -19,18 +19,22 @@ def reserve_list(date):
 
 
 def is_user_exist(user_id):
+    """"""
     pass
 
 
 def is_seat_exist(seat_id):
+    """"""
     pass
 
 
 def is_seat_reserved(seat_id):
+    """"""
     pass
 
 
 def is_seat():
+    """"""
     pass
 
 
