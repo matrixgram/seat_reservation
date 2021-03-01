@@ -1,16 +1,10 @@
 def reserve_list(date):
     """
-    input
-    -----
-    date: string it is a date format 'dd-mm-yyyy'
 
-    return
-    ------
-    return: list
-    [
-        ['user_id', 'seat_id'],
-        ...
-    ]
+    :param date: It is a date format 'dd-mm-yyyy' for get reserve list at this time.
+    :type date: string
+
+    
     """
     retrun[
         ["123", "1"],
@@ -19,46 +13,71 @@ def reserve_list(date):
 
 
 def is_user_exist(user_id):
-    """"""
-    pass
+    """To-Do
+    -----
+    must complete this function
+
+    :param user_id: 
+
+    """
+    return True
 
 
 def is_seat_exist(seat_id):
-    """"""
-    pass
+    """To-Do
+    -----
+    must complete this function
+
+    :param seat_id: 
+
+    """
+    return True
 
 
 def is_seat_reserved(seat_id):
-    """"""
-    pass
+    """To-Do
+    -----
+    must complete this function
+
+    :param seat_id: 
+
+    """
+    return True
 
 
 def is_seat():
-    """"""
-    pass
+    """To-Do
+    -----
+    must complete this function
+
+
+    """
+    return True
 
 
 def reservation(user_id, seat_id, date):
-    """
-    input
+    """input
     -----
     user_id: string
     seat_id: string
-
+    
     to-do
     -----
     for later optimize this function
 
-    return
-    ------
+    :param user_id: 
+    :param seat_id: 
+    :param date: 
+    :returns: ------
     result is a tuple
     (true,'Okay')
-
+    
     (false, 'it is not exist seat_id')
     (false, 'it is not exist user_id')
     (false, 'it is reserved')
     (false, 'can't be reserved')
     (false, 'one seat per person')
+
     """
     if not is_user_exist(user_id):
         return (False, "it is not exist user_id")
