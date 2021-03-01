@@ -56,7 +56,6 @@ def reservation(user_id, seat_id, date):
     (false, 'can't be reserved')
     (false, 'one seat per person')
     """
-    result = tuple()
     if not is_user_exist(user_id):
         return (False, "it is not exist user_id")
     if not is_seat_exist(seat_id):
@@ -68,4 +67,4 @@ def reservation(user_id, seat_id, date):
     reserve_list = reserve_list()
     for r in reserve_list:
         pass
-    return result
+    return (true, "Okay")
